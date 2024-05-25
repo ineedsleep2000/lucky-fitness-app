@@ -1,0 +1,29 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Sumo Squats",
+      "image": "https://media.discordapp.net/attachments/1232074071941054564/1243715929783799888/1.jpg?ex=66527c38&is=66512ab8&hm=77726ae9c2e0f8e29ed57d6a44c168dc16400133438b5e0863e8540e476ab3dc&=&format=webp"
+    },
+    {
+      "id": 2,
+      "name": "Bench Dips",
+      "image": "https://media.discordapp.net/attachments/1232074071941054564/1243715955868303502/2.jpg?ex=66527c3f&is=66512abf&hm=54243c34980997ac2c0f1727f94a53f59ae73ef2d71e3e9a739638fc25bf981e&=&format=webp"
+    },
+    {
+      "id": 3,
+      "name": "Side Lunges",
+      "image": "https://media.discordapp.net/attachments/1232074071941054564/1243715970212560956/3.jpg?ex=66527c42&is=66512ac2&hm=2dcd72ae9723eee9a11b57c231c3665464741614f99df0b86b6cc72247bbf895&=&format=webp"
+    },
+    {
+      "id": 4,
+      "name": "Donkey Kicks",
+      "image": "https://media.discordapp.net/attachments/1232074071941054564/1243715982669643856/4.jpg?ex=66527c45&is=66512ac5&hm=334e3b9ebfb4151b8037a09a48a7b6859775e3fc2470ed9af03c8bf35c8b290b&=&format=webp"
+    },
+    {
+      "id": 5,
+      "name": "Crunches",
+      "image": "https://media.discordapp.net/attachments/1232074071941054564/1243715994963415060/5.jpg?ex=66527c48&is=66512ac8&hm=11c8dcf5e1501834666094c9de4606573e50f1479ae4bb54c39be0b8b17b5f58&=&format=webp"
+    }
+  ]
+}
