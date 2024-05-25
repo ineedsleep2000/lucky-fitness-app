@@ -1,7 +1,16 @@
 import React from "react";
 
-const WorkoutPage = () => {
-  return <div></div>;
-};
+function WorkoutPage() {
+  return (
+    <header>
+      <h1>
+        Plantsy
+        <span className="logo" role="img">
+          🌱
+        </span>
+      </h1>
+    </header>
+  );
+}
 
 export default WorkoutPage;
