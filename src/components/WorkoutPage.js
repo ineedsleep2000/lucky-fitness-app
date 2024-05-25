@@ -1,15 +1,26 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import WorkoutList from "./WorkoutList";
+import AddWorkout from "./AddWorkout";
+import EditWorkout from "./EditWorkout";
 
 function WorkoutPage() {
+  const [workouts, setWorkouts] = useState([]);
+  console.log("🚀 ~ WorkoutPage ~ workouts:", workouts);
+
+  useEffect(() => {
+    fetch("http://localhost:6001/workouts")
+      .then((response) => response.json())
+      .then((data) => {
+        setWorkouts(data);
+      });
+  }, []);
+
   return (
-    <header>
-      <h1>
-        Plantsy
-        <span className="logo" role="img">
-          🌱
-        </span>
-      </h1>
-    </header>
+    <div>
+      <WorkoutList workouts={workouts} />
+      <AddWorkout />
+      <EditWorkout />
+    </div>
   );
 }
 
