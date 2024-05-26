@@ -28,7 +28,6 @@
 }  */
 
 .navbar {
-.navbar {
   width: 100%;
   display: flex;
   align-items: center;
@@ -37,8 +36,6 @@
   padding: 10px 15%;
   flex-wrap: wrap;
 }
-.logo {
-
 .logo {
   width: 160px;
   cursor: pointer;
@@ -56,13 +53,12 @@
   display: inline-block;
   margin: 10px 20px;
   font-size: 32px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   cursor: pointer;
   color: white;
   background: linear-gradient(red, black, red);
   padding: 1%;
 }
-.title {
 
 .title {
   display: inline-block;
@@ -70,12 +66,11 @@
   font-size: 40px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   cursor: pointer;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   cursor: pointer;
   color: white;
   background: linear-gradient(red, black, red);
 }
-.search-box {
 
 /* .search-box {
   display: flex;
@@ -95,7 +90,3 @@
   font-size: 28px;
   max-width: 200px;
 } */
-
-
-
-
