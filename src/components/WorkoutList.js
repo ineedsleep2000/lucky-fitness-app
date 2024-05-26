@@ -1,12 +1,21 @@
 import React from "react";
 import WorkoutCard from "./WorkoutCard";
 
-const WorkoutList = ({ workouts }) => {
+const WorkoutList = ({ workouts, onDeleteWorkout }) => {
   const workoutCards = workouts.map((workout) => (
-    <WorkoutCard key={workout.id} workout={workout} />
+    <WorkoutCard
+      key={workout.id}
+      workout={workout}
+      onDeleteWorkout={onDeleteWorkout}
+    />
   ));
 
-  return <ul>{workoutCards}</ul>;
+  return (
+    <div>
+      <ul>{workoutCards}</ul>
+    </div>
+  );
 };
 
 export default WorkoutList;
+// onClick={handleAddWorkout}
