@@ -41,7 +41,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-box">
-          <h1>fun facts</h1>
+          <h1>Fun Facts</h1>
           <p>
             Contrary to many beliefs, Lucky Fitness is NOT being sponsored NOR
             promoted by Sauron, the Lord of the One Ring, and he is NOT in

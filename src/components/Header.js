@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/lucky-fitness.png";
 const Header = () => {
+
   return (
-    <header>
-      <h1 className="navbar">
+    
+    <div className="navbar">
+
         <img src={logo} alt="luckyfitness" className="logo" />
-        <h1 className="title">LUCKY FITNESS</h1>
-      </h1>
-      <nav>
+        
         <ul className="navigation">
           <li>
             <Link className="button" to="/workoutpage">
@@ -26,9 +26,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-      </nav>
-      <nav className="nav-under-header"></nav>
-    </header>
+      </div>
   );
 };
 

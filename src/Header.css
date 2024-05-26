@@ -1,76 +1,78 @@
-/* .logo {
-  padding-left: 1rem;
-  height: 200px;
-} */
-
-/*body {
-  margin: 0;
-  height: 100vh;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
-}
-
-.headerbackground {
-  background-color: darkgrey; 
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-  padding: 0 20px; 
-}
-
-.spans {
-  font-size: 24pt;
-  margin-left: 20px;
-}
-
-.title {
-  font-size: 40px;
-  line-height: 4;
-}  */
-
-.navbar {
+.navbar{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: transparent;
-  padding: 10px 15%;
-  flex-wrap: wrap;
-}
-.logo {
-  width: 160px;
-  cursor: pointer;
-  background: white;
-  border-radius: 100%;
+  background: transparents;
+  padding: 15px 7%;
 }
 
-.navigation {
+.logo{
+  width: 250px;
+}
+
+.navigation{
   flex: 1;
   list-style: none;
   text-align: center;
 }
 
-.navigation li {
+.navigation li{
   display: inline-block;
   margin: 10px 20px;
-  font-size: 32px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 28px;
   cursor: pointer;
-  color: white;
-  background: linear-gradient(red, black, red);
-  padding: 1%;
+  flex-wrap: wrap;
 }
 
-.title {
-  display: inline-block;
-  margin: 10px 20px;
-  font-size: 40px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  cursor: pointer;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  cursor: pointer;
+.button{
   color: white;
-  background: linear-gradient(red, black, red);
 }
+
+/**/
+
+.new-workout{
+  max-width: 600px;
+  margin: 0 auto;
+  color: white; 
+}
+
+.new-workout h2{
+  margin-bottom: 20px;
+}
+
+.new-workout form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.new-workout form input[type="text"]{
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.new-workout form button{
+  flex: 1;
+  padding: 10px;
+  background-color: gold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-workout form button:hover{
+  background-color: grey;
+}
+
+/**/
+
 
 /* .search-box {
   display: flex;
