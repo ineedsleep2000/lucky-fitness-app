@@ -6,7 +6,7 @@ import Header from "./Header";
 import WorkoutPage from "./WorkoutPage";
 import AddWorkout from "./AddWorkout";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="container">
@@ -20,6 +20,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

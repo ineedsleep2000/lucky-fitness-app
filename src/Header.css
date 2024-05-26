@@ -28,6 +28,7 @@
 }  */
 
 .navbar {
+.navbar {
   width: 100%;
   display: flex;
   align-items: center;
@@ -37,42 +38,54 @@
   flex-wrap: wrap;
 }
 .logo {
+
+.logo {
   width: 160px;
   cursor: pointer;
   background: white;
   border-radius: 100%;
 }
-ul {
+
+.navigation {
   flex: 1;
   list-style: none;
   text-align: center;
 }
-ul li {
+
+.navigation li {
   display: inline-block;
   margin: 10px 20px;
   font-size: 32px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
   color: white;
   background: linear-gradient(red, black, red);
   padding: 1%;
 }
 .title {
+
+.title {
   display: inline-block;
   margin: 10px 20px;
   font-size: 40px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
   color: white;
   background: linear-gradient(red, black, red);
 }
 .search-box {
+
+/* .search-box {
   display: flex;
   align-items: center;
   background: white;
   padding: 10px 20px;
   border-radius: 50px;
 }
+.search-box input {
+
 .search-box input {
   padding: 6px;
   background: transparent;
@@ -81,14 +94,8 @@ ul li {
   color: black;
   font-size: 28px;
   max-width: 200px;
-}
+} */
 
-.new-workout {
-  background-color: gold;
-  text-align: center;
-}
 
-.nav-under-header {
-  background: linear-gradient(red, black, red);
-  height: 20px;
-}
+
+
