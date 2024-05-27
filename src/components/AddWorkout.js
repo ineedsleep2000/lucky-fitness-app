@@ -6,7 +6,7 @@ const AddWorkout = ({ workouts, setWorkouts }) => {
     image: "",
   });
 
-  console.log("Received Workouts Prop: ", workouts);
+  //console.log("Received Workouts Prop: ", workouts);
 
   function handleSubmit(event) {
     event.preventDefault();

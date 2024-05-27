@@ -8,7 +8,7 @@ const WorkoutList = ({ workouts, onDeleteWorkout }) => {
         <WorkoutCard
           key={workout.id}
           workout={workout}
-          onDeleteWorkout={() => onDeleteWorkout(workout.id)} // Pass down a function that directly deletes the workout
+          onDeleteWorkout={() => onDeleteWorkout(workout.id)}
         />
       ))}
     </ul>
@@ -16,6 +16,3 @@ const WorkoutList = ({ workouts, onDeleteWorkout }) => {
 };
 
 export default WorkoutList;
-
-
-

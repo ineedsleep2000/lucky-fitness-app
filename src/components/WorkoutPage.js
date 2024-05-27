@@ -10,14 +10,13 @@ function WorkoutPage() {
     fetch("http://localhost:6001/workouts")
       .then((response) => response.json())
       .then((data) => {
-        console.log("Fetched Workouts: ", data);
+        //console.log("Fetched Workouts: ", data);
         setWorkouts(data);
       });
   }, []);
 
-  
-  const handleDelete = deleteWorkoutId =>
-    setWorkouts(workouts.filter(workout => workout.id !== deleteWorkoutId));
+  const handleDelete = (deleteWorkoutId) =>
+    setWorkouts(workouts.filter((workout) => workout.id !== deleteWorkoutId));
 
   return (
     <div>
