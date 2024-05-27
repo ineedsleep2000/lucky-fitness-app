@@ -5,15 +5,11 @@ const WorkoutCard = ({ workout, onDeleteWorkout }) => {
   const { id, name, image } = workout;
 
   const handleDelete = () => {
-    //console.log("Initiating delete for workout ID:", id);
     fetch(`http://localhost:6001/workouts/${id}`, {
       method: "DELETE",
-    }).then((response) => {
-      if (response.ok) {
-        //console.log("Deleted workout with ID:", id);
-        onDeleteWorkout(id);
-      }
-    });
+    })
+      .then((res) => res.json())
+      .then(() => onDeleteWorkout(id));
   };
 
   return (

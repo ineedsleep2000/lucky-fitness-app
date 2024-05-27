@@ -1,8 +1,8 @@
 .workout-card{
   border: 2px solid white;
   border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  margin: 65px;
   text-align: center;
   max-width: 250px;
   display: inline-block;
@@ -11,7 +11,7 @@
 .workout-image{
   max-width: 75%;
   height: auto;
-  border-radius: 20%;
+  border-radius: 10%;
   margin-bottom: 10px;
 }
 
