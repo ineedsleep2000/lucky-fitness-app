@@ -1,0 +1,19 @@
+.welomePageDiv {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background: gold;
+}
+
+.welomePageHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welomePageSections {
+  text-align: center;
+  background: white;
+  flex-wrap: wrap;
+  padding: 20px;
+}

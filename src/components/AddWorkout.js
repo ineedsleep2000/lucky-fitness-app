@@ -6,12 +6,11 @@ const AddWorkout = ({ workouts, setWorkouts }) => {
     image: "",
   });
 
-  console.log("Received Workouts Prop: ", workouts);
+  //console.log("Received Workouts Prop: ", workouts);
 
   function handleSubmit(event) {
     event.preventDefault();
 
-    // Determine the next ID as a string
     const nextId =
       workouts.length > 0
         ? (

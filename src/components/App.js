@@ -5,6 +5,7 @@ import About from "./About";
 import Header from "./Header";
 import WorkoutPage from "./WorkoutPage";
 import AddWorkout from "./AddWorkout";
+import WelcomePage from "./WelcomePage";
 
 const App = () => {
   return (
