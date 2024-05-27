@@ -3,27 +3,42 @@
     {
       "id": "1",
       "name": "Sumo Squats",
-      "image": "https://cdn.discordapp.com/attachments/1243847158386528331/1243847506383601684/1.png?ex=6652f6c3&is=6651a543&hm=8c448befec65335961de66083faa593ea26f37dbba59224d935d6bb38418458b&"
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1243847506383601684/1.png?ex=665599c3&is=66544843&hm=0bf0bad1160d997da47df51f5023c28ec8ed525d9fb00f1332d0c756fafdd997&=&format=webp&quality=lossless&width=585&height=585"
     },
     {
       "id": "2",
       "name": "Bench Dips",
-      "image": "https://cdn.discordapp.com/attachments/1243847158386528331/1243847506597773423/2.png?ex=6652f6c3&is=6651a543&hm=50da7112d4433f0f5ecc1a9051c3b886b6befb31fe71f1d6d88259b7be824fc0&"
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1243847506597773423/2.png?ex=665599c3&is=66544843&hm=3866f02e4a22084888fee217cf9758866d13fc6e6623360b1ee0f88cfe94079a&=&format=webp&quality=lossless&width=585&height=585"
     },
     {
       "id": "3",
       "name": "Side Lunges",
-      "image": "https://cdn.discordapp.com/attachments/1243847158386528331/1243847506857824276/3.png?ex=6652f6c3&is=6651a543&hm=7ec6f7b7a561f423875c76c5fdaa640e96d28eaae46fe0a70ed491fb3c626a68&"
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1243847506857824276/3.png?ex=665599c3&is=66544843&hm=33734807c6ca59a1e165c487372a46c1a14c074dec85d7a4ad4ea4ea10ff3777&=&format=webp&quality=lossless&width=585&height=585"
     },
     {
       "id": "4",
       "name": "Donkey Kicks",
-      "image": "https://cdn.discordapp.com/attachments/1243847158386528331/1243847507079991366/4.png?ex=6652f6c3&is=6651a543&hm=0bcd0e5e61674ce11fb458a9953a8f74044739340753179d34589bde37eb2758&"
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1243847507079991366/4.png?ex=665599c3&is=66544843&hm=8b0355c7b4fc9f678eb195ffa2274341ea6215573907d22a380498fb0257eed5&=&format=webp&quality=lossless&width=585&height=585"
     },
     {
       "id": "5",
       "name": "Crunches",
-      "image": "https://cdn.discordapp.com/attachments/1243847158386528331/1243847507344101416/5.png?ex=6652f6c3&is=6651a543&hm=908e2c35e777bff80ac834e4cc6340a558eaad2b267659ee95dc194d574dc684&"
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1243847507344101416/5.png?ex=665599c3&is=66544843&hm=f029af985d18f09d98a40b45cc96ef656fae6482a2b753598344f94ded0fc7bf&=&format=webp&quality=lossless&width=585&height=585"
+    },
+    {
+      "id": "6",
+      "name": "Side Planks",
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1244765281465798687/6.png?ex=66564d81&is=6654fc01&hm=08445d9e4918c754f3c461022f6ed41713d06436ee73a4d2d6c48a1814a0a04d&=&format=webp&quality=lossless&width=585&height=585"
+    },
+    {
+      "id": "7",
+      "name": "Dead Lifts",
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1244765281730035762/7.png?ex=66564d81&is=6654fc01&hm=95cc26195f15b17aa53ab44ad02db8d73bd14abe70880fa78a44688a22ab7e12&=&format=webp&quality=lossless&width=585&height=585"
+    },
+    {
+      "id": "8",
+      "name": "Biking",
+      "image": "https://media.discordapp.net/attachments/1243847158386528331/1244765281243369572/8.png?ex=66564d81&is=6654fc01&hm=4a974055cb07eb0d5b30c48535d83f7db89e1814d43d4fd1e3b730c7dec75f10&=&format=webp&quality=lossless&width=585&height=585"
     }
   ]
 }
