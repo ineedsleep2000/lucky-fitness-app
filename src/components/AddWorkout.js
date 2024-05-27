@@ -11,7 +11,6 @@ const AddWorkout = ({ workouts, setWorkouts }) => {
   function handleSubmit(event) {
     event.preventDefault();
 
-    // Determine the next ID as a string
     const nextId =
       workouts.length > 0
         ? (
