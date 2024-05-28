@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import WorkoutList from "./WorkoutList";
 import AddWorkout from "./AddWorkout";
-import EditWorkout from "./EditWorkout";
 
 function WorkoutPage() {
   const [workouts, setWorkouts] = useState([]);
@@ -17,9 +16,12 @@ function WorkoutPage() {
   const handleDelete = (deleteWorkoutId) =>
     setWorkouts(workouts.filter((workout) => workout.id !== deleteWorkoutId));
 
+  const handleAdd = (newWorkout) =>
+    setWorkouts((workouts) => [...workouts, newWorkout]);
+
   return (
     <div>
-      <AddWorkout workouts={workouts} setWorkouts={setWorkouts} />
+      <AddWorkout onAddWorkout={handleAdd} />
       <WorkoutList workouts={workouts} onDeleteWorkout={handleDelete} />
     </div>
   );
