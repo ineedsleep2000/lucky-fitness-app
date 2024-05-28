@@ -1,24 +1,15 @@
 import React, { useState } from "react";
 
-const AddWorkout = ({ workouts, setWorkouts }) => {
+const AddWorkout = ({ onAddWorkout }) => {
   const [formData, setFormData] = useState({
     name: "",
     image: "",
   });
 
-  //console.log("Received Workouts Prop: ", workouts);
-
-  function handleSubmit(event) {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
-    const nextId =
-      workouts.length > 0
-        ? (
-            Math.max(...workouts.map((workout) => parseInt(workout.id))) + 1
-          ).toString()
-        : "1";
-
-    const newWorkout = { ...formData, id: nextId };
+    const newWorkout = { ...formData };
 
     fetch("http://localhost:6001/workouts", {
       method: "POST",
@@ -28,15 +19,15 @@ const AddWorkout = ({ workouts, setWorkouts }) => {
       body: JSON.stringify(newWorkout),
     })
       .then((response) => response.json())
-      .then((data) => setWorkouts([...workouts, data]));
-  }
+      .then((data) => onAddWorkout(data));
+  };
 
-  function handleChange(event) {
+  const handleChange = (event) => {
     setFormData({
       ...formData,
       [event.target.name]: event.target.value,
     });
-  }
+  };
 
   return (
     <div className="new-workout">
