@@ -10,7 +10,6 @@ function WorkoutPage() {
     fetch("http://localhost:6001/workouts")
       .then((response) => response.json())
       .then((data) => {
-        //console.log("Fetched Workouts: ", data);
         setWorkouts(data);
       });
   }, []);
@@ -22,7 +21,6 @@ function WorkoutPage() {
     <div>
       <AddWorkout workouts={workouts} setWorkouts={setWorkouts} />
       <WorkoutList workouts={workouts} onDeleteWorkout={handleDelete} />
-      <EditWorkout />
     </div>
   );
 }
